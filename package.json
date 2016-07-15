@@ -1,0 +1,17 @@
+{
+  "name": "ffmpeg-express-example",
+  "version": "0.0.1",
+  "description": "Very raw example of how you can use ffmpeg and express to set up streaming of audio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "YurySolovyov",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "fluent-ffmpeg": "^2.1.0",
+    "mime-types": "^2.1.11",
+    "send-seekable": "^1.0.2"
+  }
+}
