@@ -8,3 +8,7 @@ ffmpeg.setFfprobePath('./ffmpeg/ffprobe.exe');
 ffmpeg.ffprobe('./file.flac', function(err, res) {
   console.log(JSON.stringify(res, null, '  '));
 });
+
+ffmpeg.ffprobe('./no-info.flac', function(err, res) {
+  console.log(JSON.stringify(res, null, '  '));
+});
